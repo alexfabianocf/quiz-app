@@ -1,0 +1,27 @@
+Depois de tudo instalado cordova, Android Studio, vue-cli e quasar-cli
+
+
+1 - criar um diretorio
+mkdir teste 
+2 - entrar no diretorio
+cd teste
+3 - inciar projeto e preencher 
+quasar init .
+
+### MINHA TELA ###
+? Project name (internal usage for dev) teste
+? Project product name (official name) Teste App
+? Project description A Quasar Framework app
+? Author 
+? Check the features needed for your project: Vuex, Axios
+? Cordova id (disregard if not building mobile apps) com.example.teste.app
+? Should we run `npm install` for you after the project has been created? (recommended) NPM
+
+4 - Build corodova
+quasar mode -a cordova
+
+5 - entrar na pasta do build
+cd src-cordova
+
+6 - gerar o apk
+cordova build
